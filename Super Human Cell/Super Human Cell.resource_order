@@ -14,8 +14,16 @@
     {"name":"Animation Curves","order":12,"path":"folders/Animation Curves.yy",},
     {"name":"Notes","order":13,"path":"folders/Notes.yy",},
     {"name":"Extensions","order":14,"path":"folders/Extensions.yy",},
+    {"name":"TitleScreen","order":1,"path":"folders/Objects/TitleScreen.yy",},
+    {"name":"SplashScreen","order":3,"path":"folders/Objects/SplashScreen.yy",},
   ],
   "ResourceOrderSettings": [
-    {"name":"TitleLogo","order":2,"path":"sprites/TitleLogo/TitleLogo.yy",},
+    {"name":"TeamLogo","order":3,"path":"sprites/TeamLogo/TeamLogo.yy",},
+    {"name":"BlackScreen","order":1,"path":"sprites/BlackScreen/BlackScreen.yy",},
+    {"name":"SplashScreen","order":1,"path":"rooms/SplashScreen/SplashScreen.yy",},
+    {"name":"FadeInScreen","order":2,"path":"objects/FadeInScreen/FadeInScreen.yy",},
+    {"name":"Object1","order":1,"path":"objects/Object1/Object1.yy",},
+    {"name":"TestInteractableSprite","order":2,"path":"sprites/TestInteractableSprite/TestInteractableSprite.yy",},
+    {"name":"TitleLogo","order":1,"path":"sprites/TitleLogo/TitleLogo.yy",},
   ],
 }
