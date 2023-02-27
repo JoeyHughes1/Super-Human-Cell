@@ -1,5 +1,4 @@
 /// @description Constantly Updates the position of the title to be relative to the mouse
-// You can write your code in this editor
 
 function getTitleCoord(axis) {
 	var original = originalX

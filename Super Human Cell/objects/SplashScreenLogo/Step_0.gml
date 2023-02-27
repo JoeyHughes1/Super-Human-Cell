@@ -1,5 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Updates the Logo Fade
+// Pauses, fades the logo in, pauses, fades the logo out, then transitions to the title screen
 
 frame++
 
