@@ -6,6 +6,7 @@ if (vel_x < 0)
 	// making it face left.
 	image_xscale = -default_scale_x;
 	image_yscale = default_scale_y;
+	facingRight = false
 }
 // Otherwise - if the character is not moving left, this checks if the X velocity is greater than 0, meaning the character is moving right.
 else if (vel_x > 0)
@@ -13,6 +14,7 @@ else if (vel_x > 0)
 	// In that case, the horizontal scale is set to 1, so the character faces right again.
 	image_xscale = default_scale_x;
 	image_yscale = default_scale_y;
+	facingRight = true
 }
 
 // This checks if the character's health is at, or below, 0, meaning it has been defeated.

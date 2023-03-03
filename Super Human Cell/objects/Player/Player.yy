@@ -46,8 +46,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Character",
-    "path": "sprites/Character/Character.yy",
+    "name": "PlayerSprite",
+    "path": "sprites/PlayerSprite/PlayerSprite.yy",
   },
   "spriteMaskId": null,
   "visible": true,

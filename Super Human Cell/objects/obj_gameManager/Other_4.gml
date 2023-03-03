@@ -1,0 +1,1 @@
+collisionTilemap = layer_tilemap_get_id("Collision_Tiles");

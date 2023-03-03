@@ -26,6 +26,10 @@ grounded = false;
 grounded_x = x;
 grounded_y = y;
 
+// Stores as an easy-to-access variable of which way the character is facing
+// If this is false, then the player is facing left
+facingRight = true
+
 // 'max_hp' is the maximum health for the
 // character.
 // 'hp' is the actual health of the character.

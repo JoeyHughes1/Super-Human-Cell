@@ -15,16 +15,16 @@ function check_collision(_move_x, _move_y)
 	// The function continues if there were no object collisions. In this case we check for tile
 	// collisions, at each corner of the instance's bounding box.
 	// This checks for tile collision at the top-left corner of the instance's mask
-	var _left_top = tilemap_get_at_pixel(layer_tilemap_get_id("Collision_Tiles"), bbox_left + _move_x, bbox_top + _move_y);
+	var _left_top = tilemap_get_at_pixel(obj_gameManager.collisionTilemap, bbox_left + _move_x, bbox_top + _move_y);
 
 	// This checks for tile collision at the top-right corner of the instance's mask
-	var _right_top = tilemap_get_at_pixel(layer_tilemap_get_id("Collision_Tiles"), bbox_right + _move_x, bbox_top + _move_y);
+	var _right_top = tilemap_get_at_pixel(obj_gameManager.collisionTilemap, bbox_right + _move_x, bbox_top + _move_y);
 
 	// This checks for tile collision at the bottom-right corner of the instance's mask
-	var _right_bottom = tilemap_get_at_pixel(layer_tilemap_get_id("Collision_Tiles"), bbox_right + _move_x, bbox_bottom + _move_y);
+	var _right_bottom = tilemap_get_at_pixel(obj_gameManager.collisionTilemap, bbox_right + _move_x, bbox_bottom + _move_y);
 
 	// This checks for tile collision at the bottom-left corner of the instance's mask
-	var _left_bottom = tilemap_get_at_pixel(layer_tilemap_get_id("Collision_Tiles"), bbox_left + _move_x, bbox_bottom + _move_y);
+	var _left_bottom = tilemap_get_at_pixel(obj_gameManager.collisionTilemap, bbox_left + _move_x, bbox_bottom + _move_y);
 
 	// The results of the above four actions were stored in temporary variables. If any of those variables were true, meaning a tile
 	// collision was found at any given corner, we return true and end the function.
