@@ -2,7 +2,7 @@ draw_set_font(Dialogue_Font)
 draw_set_halign(fa_left)
 draw_set_valign(fa_top)
 
-textX = x + Guide.sprite_width/2
+textX = x
 textY = y - string_height(textArray[textCurrent]) - Guide.sprite_height/2 - (textMargin * 2)
 
 if(fadingIn){
