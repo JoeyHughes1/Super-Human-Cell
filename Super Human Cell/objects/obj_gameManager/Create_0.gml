@@ -8,7 +8,6 @@ enum CameraState {
 
 defaultWidth = camera_get_view_width(view_camera[0])
 defaultHeight = camera_get_view_height(view_camera[0])
-camPositionAndSizeTolerance = 0.1
 defaultTweenSpeed = 10
 
 camState = CameraState.Follow
