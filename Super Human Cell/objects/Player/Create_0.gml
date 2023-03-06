@@ -14,6 +14,8 @@ running_jump_boost_ratio = 8
 
 default_scale_x = image_xscale;
 default_scale_y = image_yscale;
+spawn_x = x
+spawn_y = y
 
 jump_held = false
 moving_right = false

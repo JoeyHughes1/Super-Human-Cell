@@ -50,6 +50,7 @@
   "resources": [
     {"id":{"name":"TitleBackground","path":"sprites/TitleBackground/TitleBackground.yy",},"order":0,},
     {"id":{"name":"TeamLogo","path":"sprites/TeamLogo/TeamLogo.yy",},"order":0,},
+    {"id":{"name":"obj_FixedWideCameraTrigger","path":"objects/obj_FixedWideCameraTrigger/obj_FixedWideCameraTrigger.yy",},"order":0,},
     {"id":{"name":"NewGameButton","path":"sprites/NewGameButton/NewGameButton.yy",},"order":0,},
     {"id":{"name":"BlackScreen","path":"sprites/BlackScreen/BlackScreen.yy",},"order":0,},
     {"id":{"name":"TitleLogoObj","path":"objects/TitleLogoObj/TitleLogoObj.yy",},"order":0,},
@@ -67,6 +68,7 @@
     {"id":{"name":"GuideSprite","path":"sprites/GuideSprite/GuideSprite.yy",},"order":0,},
     {"id":{"name":"TestTileSet","path":"tilesets/TestTileSet/TestTileSet.yy",},"order":0,},
     {"id":{"name":"BuffCellTitleScreen","path":"sprites/BuffCellTitleScreen/BuffCellTitleScreen.yy",},"order":0,},
+    {"id":{"name":"FixedCameraTriggerZone","path":"sprites/FixedCameraTriggerZone/FixedCameraTriggerZone.yy",},"order":0,},
     {"id":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},"order":0,},
     {"id":{"name":"GuideDialogueTriggerZone","path":"sprites/GuideDialogueTriggerZone/GuideDialogueTriggerZone.yy",},"order":0,},
     {"id":{"name":"StringWrap","path":"scripts/StringWrap/StringWrap.yy",},"order":0,},
