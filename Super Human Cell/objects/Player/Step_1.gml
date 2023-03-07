@@ -66,7 +66,6 @@ if(jump_held) {
 } else {
 	if(vel_y < 0) {
 		vel_y += even_quicker_grav_speed;
-		if(vel_y > 0) vel_y = 0
 	} else {
 		vel_y += quicker_grav_speed;
 	}
