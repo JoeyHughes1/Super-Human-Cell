@@ -37,7 +37,7 @@ if (abs(vel_x) > 0.5)
 	vel_x -= _friction_applied;
 }
 // This 'else' block runs when there is no X velocity, or it's less than 0.5 pixels in either direction.
-else
+else if(grounded)
 {
 	// In that case we reset the X velocity to 0 so the character comes to a complete stop.
 	vel_x = 0;
