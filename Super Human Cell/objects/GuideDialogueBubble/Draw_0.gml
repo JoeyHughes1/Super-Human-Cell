@@ -32,7 +32,6 @@ if(fadingOut) draw_set_alpha(currentAlpha/normalAlpha);
 if(char_current <= string_length(textArray[textCurrent])) {
 	char_current += char_speed
 } else if (!waiting) {
-	show_debug_message(string_length(textArray[textCurrent]))
 	alarm[0] = room_speed * (2 + string_length(textArray[textCurrent])/80)
 	waiting = true
 }

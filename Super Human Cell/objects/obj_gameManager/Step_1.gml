@@ -1,13 +1,13 @@
-inverseAspectRatio = 1080/1920
-currentCam = view_camera[0]
+inverseAspectRatio = defaultHeight/defaultWidth
+currentCam = defaultCam
 camCenterX = camera_get_view_x(currentCam) + camera_get_view_width(currentCam)/2;
 camCenterY = camera_get_view_y(currentCam) + camera_get_view_height(currentCam)/2;
 
 
 switch(camState) {
 	case CameraState.Follow:
-		camWidth = camera_get_view_width(currentCam)
-		camHeight = camera_get_view_height(currentCam)
+		var camWidth = camera_get_view_width(currentCam)
+		var camHeight = camera_get_view_height(currentCam)
 		if(abs(camWidth - defaultWidth) > 0.1 || abs(camHeight - defaultHeight) > 0.1) {
 			camera_set_view_size(currentCam, 
 				camWidth + (defaultWidth - camWidth)/defaultTweenSpeed, 
@@ -26,10 +26,10 @@ switch(camState) {
 		if(!fixCamZone.collidingWithPlayer()) {
 			camState = CameraState.Follow
 		}
-		camX = camera_get_view_x(currentCam)
-		camY = camera_get_view_y(currentCam)
-		camWidth = camera_get_view_width(currentCam)
-		camHeight = camera_get_view_height(currentCam)
+		var camX = camera_get_view_x(currentCam)
+		var camY = camera_get_view_y(currentCam)
+		var camWidth = camera_get_view_width(currentCam)
+		var camHeight = camera_get_view_height(currentCam)
 		if(abs(camX - moveToX) > 0.1 || 
 			abs(camY - moveToY) > 0.1 || 
 			abs(camWidth - moveToWidth) > 0.1 || 
@@ -43,6 +43,17 @@ switch(camState) {
 		} else {
 			camState = CameraState.Fixed
 		}
+		break
+	case CameraState.Intro:
+		var camWidth = camera_get_view_width(currentCam)
+		var newWidth = camWidth + clamp((defaultWidth - camWidth)/20, 1, 200)
+		if(abs(newWidth - defaultWidth) < 2) {
+			camera_set_view_size(currentCam, defaultWidth, defaultHeight)
+			camState = CameraState.Follow
+			Player.movementAllowed = true
+			//instance_create_layer(0, 0, "GUI", RespiratoryGUI)
+		}
+		camera_set_view_size(currentCam, newWidth, newWidth * inverseAspectRatio)
 		break
 	default:
 		break

@@ -4,11 +4,14 @@ enum CameraState {
 	Follow,
 	MoveTo,
 	Fixed,
+	Intro,
 }
 
-defaultWidth = camera_get_view_width(view_camera[0])
-defaultHeight = camera_get_view_height(view_camera[0])
+defaultCam = view_camera[0]
+defaultWidth = camera_get_view_width(defaultCam)
+defaultHeight = camera_get_view_height(defaultCam)
 defaultTweenSpeed = 10
+
 
 camState = CameraState.Follow
 moveToWidth = 0

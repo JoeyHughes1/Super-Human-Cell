@@ -1,6 +1,7 @@
 // I copied this from somewhere online lmao
 // the rest of it i wrote
-function StringWrap(_text, _width){
+function StringWrap(_text, _width, font){
+	draw_set_font(font)
 	var _text_wrapped = "";
 	var _space = -1;
 	var _char_pos = 1;

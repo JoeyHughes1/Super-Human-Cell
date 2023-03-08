@@ -20,3 +20,7 @@ spawn_y = y
 jump_held = false
 moving_right = false
 moving_left = false
+movementAllowed = true
+
+//Scores
+particleCount = 0
