@@ -30,6 +30,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"TestLevel","order":2,"path":"rooms/TestLevel/TestLevel.yy",},
     {"name":"obj_FixedWideCameraTrigger","order":1,"path":"objects/obj_FixedWideCameraTrigger/obj_FixedWideCameraTrigger.yy",},
     {"name":"NewGameButton","order":1,"path":"sprites/NewGameButton/NewGameButton.yy",},
     {"name":"BlackScreen","order":1,"path":"sprites/BlackScreen/BlackScreen.yy",},
