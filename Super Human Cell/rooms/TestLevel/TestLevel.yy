@@ -42,6 +42,7 @@
     {"name":"inst_2FEB7EBD","path":"rooms/TestLevel/TestLevel.yy",},
     {"name":"inst_48886B73","path":"rooms/TestLevel/TestLevel.yy",},
     {"name":"inst_38D870AB","path":"rooms/TestLevel/TestLevel.yy",},
+    {"name":"inst_69BD20A2","path":"rooms/TestLevel/TestLevel.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -99,6 +100,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2FEB7EBD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"AirParticle","path":"objects/AirParticle/AirParticle.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1664.0,"y":3936.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_48886B73","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"AirParticle","path":"objects/AirParticle/AirParticle.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1856.0,"y":4096.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_38D870AB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"AirParticle","path":"objects/AirParticle/AirParticle.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1920.0,"y":3968.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_69BD20A2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_windEffect","path":"objects/obj_windEffect/obj_windEffect.yy",},"properties":[],"rotation":-50.97362,"scaleX":3.2399995,"scaleY":2.0666666,"x":3679.9998,"y":4127.9995,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"TestLevelBackground","path":"sprites/TestLevelBackground/TestLevelBackground.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":true,"x":0,"y":0,},
   ],
