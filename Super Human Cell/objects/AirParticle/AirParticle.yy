@@ -11,7 +11,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Respiratory",
-    "path": "folders/Objects/Special/Respiratory.yy",
+    "path": "folders/Objects/Environment/Respiratory.yy",
   },
   "parentObjectId": null,
   "persistent": false,
