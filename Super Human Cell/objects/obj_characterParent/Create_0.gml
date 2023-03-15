@@ -45,6 +45,9 @@ no_hurt_frames = 0;
 default_scale_x = 1;
 default_scale_y = 1;
 
+amPlayer = false
+dash = false
+
 // This is the object that replaces the character once it is defeated. By default it's set to 'obj_player_defeated'
 // and its value may be changed in a child object.
 

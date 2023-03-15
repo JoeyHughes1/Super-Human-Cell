@@ -1,5 +1,11 @@
 event_inherited()
 
+if(grounded) {
+	dash_count = max_dash_count
+}
+dashCooldown = clamp(dashCooldown-1, 0, dashCooldownLength)
+
+
 //direction is 1 for to the right, -1 for the left
 function acceleratePlayer(direction) {
 	vel_x += direction * acceleration_speed * power(1.2, abs(vel_x) * -1)
