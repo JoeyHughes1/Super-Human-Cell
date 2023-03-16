@@ -1,13 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "RespiratoryPlatform",
+  "name": "NervousPlatform",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Respiratory",
-    "path": "folders/Objects/Environment/Respiratory.yy",
+    "name": "Nervous",
+    "path": "folders/Objects/Environment/Nervous.yy",
   },
   "parentObjectId": {
     "name": "obj_collision",
@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "RPlatformBigSprite",
-    "path": "sprites/RPlatformBigSprite/RPlatformBigSprite.yy",
+    "name": "NerveCell",
+    "path": "sprites/NerveCell/NerveCell.yy",
   },
   "spriteMaskId": null,
   "visible": true,

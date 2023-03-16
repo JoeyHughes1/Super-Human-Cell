@@ -58,8 +58,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "PlayerSprite",
-    "path": "sprites/PlayerSprite/PlayerSprite.yy",
+    "name": "PlayerSprite_Idle",
+    "path": "sprites/PlayerSprite_Idle/PlayerSprite_Idle.yy",
   },
   "spriteMaskId": null,
   "visible": true,

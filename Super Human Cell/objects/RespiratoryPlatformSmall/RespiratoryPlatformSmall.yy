@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "RespiratoryPlatform",
+  "name": "RespiratoryPlatformSmall",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "RPlatformBigSprite",
-    "path": "sprites/RPlatformBigSprite/RPlatformBigSprite.yy",
+    "name": "RPlatformSmallSprite",
+    "path": "sprites/RPlatformSmallSprite/RPlatformSmallSprite.yy",
   },
   "spriteMaskId": null,
   "visible": true,

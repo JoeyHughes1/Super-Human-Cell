@@ -13,7 +13,7 @@ if(dash) {
 		dash_count--
 		dashPath[0] = x
 		dashPath[1] = y
-		oldSpriteState = [image_index, image_xscale, image_yscale, image_angle, image_blend]
+		oldSpriteState = [image_index, image_xscale, image_yscale, image_angle, image_blend, sprite_index]
 		event_inherited()
 		dash = false
 		dashPath[2] = x
