@@ -38,8 +38,9 @@
     {"name":"Nervous","order":5,"path":"folders/Sprites/Environment/Nervous.yy",},
   ],
   "ResourceOrderSettings": [
-    {"name":"PurplePixel","order":2,"path":"sprites/PurplePixel/PurplePixel.yy",},
+    {"name":"TrailPixel","order":2,"path":"sprites/TrailPixel/TrailPixel.yy",},
     {"name":"AirParticleGate","order":1,"path":"objects/AirParticleGate/AirParticleGate.yy",},
+    {"name":"DashParticles","order":4,"path":"objects/DashParticles/DashParticles.yy",},
     {"name":"NerveCell","order":8,"path":"sprites/NerveCell/NerveCell.yy",},
     {"name":"TestLevel","order":2,"path":"rooms/TestLevel/TestLevel.yy",},
     {"name":"obj_FixedWideCameraTrigger","order":1,"path":"objects/obj_FixedWideCameraTrigger/obj_FixedWideCameraTrigger.yy",},
@@ -79,6 +80,7 @@
     {"name":"Door_Font","order":2,"path":"fonts/Door_Font/Door_Font.yy",},
     {"name":"PlayerSprite_Walk","order":1,"path":"sprites/PlayerSprite_Walk/PlayerSprite_Walk.yy",},
     {"name":"Platform","order":1,"path":"objects/Platform/Platform.yy",},
+    {"name":"ParticlePixel","order":9,"path":"sprites/ParticlePixel/ParticlePixel.yy",},
     {"name":"RPlatformSmallSprite","order":12,"path":"sprites/RPlatformSmallSprite/RPlatformSmallSprite.yy",},
     {"name":"DashRefill","order":1,"path":"objects/DashRefill/DashRefill.yy",},
     {"name":"TitleButton","order":1,"path":"objects/TitleButton/TitleButton.yy",},

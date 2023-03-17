@@ -1,9 +1,16 @@
 draw_set_font(Dialogue_Font)
 draw_set_halign(fa_left)
 draw_set_valign(fa_top)
+var guideDistanceToTarget = sqrt(sqr(Guide.x - Guide.targetX) + sqr(Guide.y - Guide.targetY))
 
-textX = x
-textY = y - string_height(textArray[textCurrent]) - Guide.sprite_height/2 - (textMargin * 2)
+
+if(guideDistanceToTarget < 12) {
+	anchorX = Guide.targetX - Guide.circleFactorX
+	anchorY = Guide.targetY - Guide.circleFactorY
+}
+
+textX = anchorX
+textY = anchorY - string_height(textArray[textCurrent]) - Guide.sprite_height/2 - (textMargin * 2)
 
 if(fadingIn){
 	currentAlpha = clamp(currentAlpha + 0.01, 0, normalAlpha)
@@ -20,7 +27,7 @@ if(fadingOut){
 draw_set_color(c_white)
 draw_set_alpha(currentAlpha)
 
-draw_roundrect_ext(textX, textY, textX + string_width(textArray[textCurrent]) + textMargin * 2, Guide.y - Guide.sprite_height/2, bubbleRadius, bubbleRadius, false)
+draw_roundrect_ext(textX, textY, textX + string_width(textArray[textCurrent]) + textMargin * 2, anchorY - Guide.sprite_height/2, bubbleRadius, bubbleRadius, false)
 
 
 

@@ -27,7 +27,13 @@ function moveX(_move_once) {
 	if (!_collision_found) {
 		x += _move_once;
 		checkForDashThrough()
-		if dash instance_create_layer(x, y, "Instances", DashTrail)
+		if dash {
+			instance_create_layer(x, y, "Instances", DashTrail)
+			if x%6 == 0 instance_create_layer(
+				x + random_range(-1*dashParticleRange, dashParticleRange), 
+				y + random_range(-1*dashParticleRange, dashParticleRange), 
+				"Instances", DashParticles)
+		}
 	} else {
 		vel_x = 0;
 		movingX = false
@@ -40,7 +46,13 @@ function moveY(_move_once) {
 	if (!_collision_found) {
 		y += _move_once;
 		checkForDashThrough()
-		if dash instance_create_layer(x, y, "Instances", DashTrail)
+		if dash {
+			instance_create_layer(x, y, "Instances", DashTrail)
+			if y%6 == 0 instance_create_layer(
+				x + random_range(-1*dashParticleRange, dashParticleRange), 
+				y + random_range(-1*dashParticleRange, dashParticleRange), 
+				"Instances", DashParticles)
+		}
 	} else {
 		vel_y = 0;
 		movingY = false

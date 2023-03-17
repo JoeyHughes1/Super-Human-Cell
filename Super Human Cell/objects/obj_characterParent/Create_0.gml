@@ -47,6 +47,7 @@ default_scale_y = 1;
 
 amPlayer = false
 dash = false
+dashParticleRange = 20
 
 // This is the object that replaces the character once it is defeated. By default it's set to 'obj_player_defeated'
 // and its value may be changed in a child object.

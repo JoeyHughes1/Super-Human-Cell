@@ -3,8 +3,11 @@ if(cyclePosition > cycleLength) {
 	cyclePosition = 0
 }
 
-targetX = targetPlayer.x - targetPlayer.image_xscale * 40 + (dsin(cyclePosition/cycleLength * 360) * circleRadius)
-targetY = targetPlayer.y - targetPlayer.image_yscale * 35 - (dsin(cyclePosition/cycleLength * 360 + 90) * circleRadius)
+circleFactorX = (dsin(cyclePosition/cycleLength * 360) * circleRadius)
+circleFactorY = -1 * (dsin(cyclePosition/cycleLength * 360 + 90) * circleRadius)
+
+targetX = targetPlayer.x - targetPlayer.sprite_width/1.3 + circleFactorX
+targetY = targetPlayer.y - targetPlayer.sprite_height/1.9 + circleFactorY
 
 x = x + (targetX - x)/followSpeed
 if(x > targetPlayer.x) {
