@@ -1,7 +1,7 @@
 if(drawDash > 0) {
 	//draw_line_width_color(dashPath[0], dashPath[1], dashPath[2], dashPath[3],
 	//	6 * drawDash/dashAnimationLength, c_purple, make_color_rgb(242, 3, 255))
-	draw_sprite_ext(PlayerSprite, oldSpriteState[0], dashPath[0], dashPath[1], 
+	draw_sprite_ext(oldSpriteState[5], oldSpriteState[0], dashPath[0], dashPath[1], 
 		oldSpriteState[1], oldSpriteState[2], oldSpriteState[3], oldSpriteState[4], 
 		0.7 * drawDash/dashAnimationLength)
 	drawDash--

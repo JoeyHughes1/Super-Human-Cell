@@ -8,9 +8,9 @@ targetY = targetPlayer.y - targetPlayer.image_yscale * 35 - (dsin(cyclePosition/
 
 x = x + (targetX - x)/followSpeed
 if(x > targetPlayer.x) {
-	image_xscale = abs(image_xscale) * -1;
-} else {
 	image_xscale = abs(image_xscale);
+} else {
+	image_xscale = abs(image_xscale) * -1;
 }
 if(abs(x - targetPlayer.x) >= 100) {
 	image_angle = clamp((abs(x-targetPlayer.x) - 100) * sign(x-targetPlayer.x) / 2, -70, 70);
