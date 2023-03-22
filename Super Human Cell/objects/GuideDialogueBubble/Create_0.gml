@@ -2,7 +2,7 @@ textArray[0] = "This is the default dialogue text."
 textArray[1] = "If you see this something has gone wrong."
 textCurrent = 0
 
-textWidth = 300;
+textWidth = 500;
 
 char_current = 1
 char_speed = 0.60

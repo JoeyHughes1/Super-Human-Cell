@@ -6,4 +6,4 @@ if(distance_to_object(Player) < playerActivateRadius && !activated) {
 		image_speed = 1
 	}
 }
-if(image_index >= 7) instance_destroy();
+if(image_alpha <= 0) instance_destroy();
