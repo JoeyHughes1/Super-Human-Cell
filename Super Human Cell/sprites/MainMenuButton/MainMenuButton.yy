@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "NewGameButton",
+  "name": "MainMenuButton",
   "bbox_bottom": 102,
   "bbox_left": 0,
   "bbox_right": 299,
@@ -13,27 +13,27 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e2a309dd-8314-4482-ad95-6635a186a720",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ed1e4f32-29c1-4781-9097-0d7fa203fc0f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"940b5855-40dc-48d6-aa9d-27383c007f61",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"96d148ee-ca40-40ab-94c6-b8398a293890",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 96,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"025d7be9-f590-4016-b35c-496aeaad82a4","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e1516b67-fc07-4cab-b0ac-da5a298027c5","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "TitleScreen",
-    "path": "folders/Sprites/TitleScreen.yy",
+    "name": "Menu",
+    "path": "folders/Sprites/Menu.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "NewGameButton",
+    "name": "MainMenuButton",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -55,8 +55,8 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e2a309dd-8314-4482-ad95-6635a186a720","path":"sprites/NewGameButton/NewGameButton.yy",},},},"Disabled":false,"id":"95f1a651-88cb-4ba2-b0d2-bbab873a134e","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ed1e4f32-29c1-4781-9097-0d7fa203fc0f","path":"sprites/NewGameButton/NewGameButton.yy",},},},"Disabled":false,"id":"d5f825e4-360c-4ce9-87ad-ad9c6244e6b0","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"940b5855-40dc-48d6-aa9d-27383c007f61","path":"sprites/MainMenuButton/MainMenuButton.yy",},},},"Disabled":false,"id":"36c39f54-0d4d-4880-a1ed-aac88fe313d5","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"96d148ee-ca40-40ab-94c6-b8398a293890","path":"sprites/MainMenuButton/MainMenuButton.yy",},},},"Disabled":false,"id":"f3680326-35ad-48de-8369-13b2afce64d7","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

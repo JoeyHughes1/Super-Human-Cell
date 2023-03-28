@@ -30,6 +30,7 @@
     {"name":"Living Beings","order":3,"path":"folders/Sprites/Living Beings.yy",},
     {"name":"Character","order":1,"path":"folders/Sprites/Living Beings/Character.yy",},
     {"name":"Guide","order":2,"path":"folders/Sprites/Living Beings/Guide.yy",},
+    {"name":"Menu","order":8,"path":"folders/Sprites/Menu.yy",},
     {"name":"Special","order":6,"path":"folders/Sprites/Special.yy",},
     {"name":"SplashScreen","order":2,"path":"folders/Sprites/SplashScreen.yy",},
     {"name":"TitleScreen","order":1,"path":"folders/Sprites/TitleScreen.yy",},
@@ -90,5 +91,6 @@
     {"name":"TitleButton","order":1,"path":"objects/TitleButton/TitleButton.yy",},
     {"name":"RespiratoryTileSet","order":1,"path":"tilesets/RespiratoryTileSet/RespiratoryTileSet.yy",},
     {"name":"TitleLogo","order":2,"path":"sprites/TitleLogo/TitleLogo.yy",},
+    {"name":"MainMenuButton","order":1,"path":"sprites/MainMenuButton/MainMenuButton.yy",},
   ],
 }
