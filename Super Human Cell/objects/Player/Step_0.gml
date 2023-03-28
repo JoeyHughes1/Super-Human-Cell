@@ -18,8 +18,10 @@ if(dash) {
 		dash = false
 		dashPath[2] = x
 		dashPath[3] = y
-		vel_y = jump_speed * directionVertical * 0.7	
-		if(directionVertical > 0) vel_y = max_vel_y
+		if(vel_y != 0) {
+			vel_y = jump_speed * directionVertical * 0.7
+			if(directionVertical > 0) vel_y = max_vel_y
+		}
 	} else {
 		dash = false
 		event_inherited()

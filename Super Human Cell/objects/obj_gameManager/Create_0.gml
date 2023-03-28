@@ -5,6 +5,7 @@ enum CameraState {
 	MoveTo,
 	Fixed,
 	Intro,
+	OneDimension,
 }
 
 defaultCam = view_camera[0]
@@ -19,9 +20,10 @@ moveToX = 0
 moveToY = 0
 moveToSpeed = 0
 
-fixCamX = 0
-fixCamY = 0
 fixCamZone = 0
+
+fixedDimension = 0 //0 for x, 1 for y
+fixDimensionZone = 0
 
 function moveCameraTo(camera, destX, destY, destWidth, moveSpeed) {
 	camState = CameraState.MoveTo
@@ -34,7 +36,14 @@ function moveCameraTo(camera, destX, destY, destWidth, moveSpeed) {
 
 function fixCamera(camera, zone) {
 	moveCameraTo(camera, zone.x, zone.y, zone.sprite_width, 10)
-	fixCamX = zone.x
-	fixCamY = zone.y
 	fixCamZone = zone
+}
+
+function oneDimension(camera, zone, dimension) {
+	fixedDimension = dimension
+	fixDimensionZone = zone
+	moveToX = zone.x
+	moveToY = zone.y
+	moveToSpeed = 7
+	camState = CameraState.OneDimension
 }

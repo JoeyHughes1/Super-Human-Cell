@@ -75,7 +75,6 @@ if(vel_x == 0 && vel_y != 0) {
 } else if(abs(vel_x) > abs(vel_y)) {
 	var multiple = floor(abs(vel_x)/abs(vel_y))
 	var extra = abs(vel_x) % abs(vel_y)
-	show_debug_message("vel_x: " + string(vel_x) + ", vel_y: " + string(vel_y) + ", multiple is: "+string(multiple)+", extra is: "+string(extra))
 	repeat(abs(vel_y)) {
 		repeat(multiple) {
 			if(movingX) {
