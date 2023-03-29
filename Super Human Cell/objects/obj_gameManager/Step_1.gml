@@ -103,6 +103,24 @@ switch(camState) {
 		}
 		camera_set_view_size(currentCam, newWidth, newWidth * inverseAspectRatio)
 		break
+	case CameraState.Outro:
+		var camX = camera_get_view_x(currentCam)
+		var camY = camera_get_view_y(currentCam)
+		var camWidth = camera_get_view_width(currentCam)
+		var camHeight = camera_get_view_height(currentCam)
+		var targetX = obj_EndOfLevel.x - outroTargetWidth/2
+		var targetY = obj_EndOfLevel.y - (outroTargetWidth * inverseAspectRatio	)/2
+		if(abs(camX - targetX) > 0.1 || 
+			abs(camY - targetY) > 0.1) {
+			camera_set_view_pos(currentCam, 
+				camX + (targetX - camX)/outroSmoothness, 
+				camY + (targetY - camY)/outroSmoothness)
+		}
+		camera_set_view_size(currentCam, 
+			outroTargetWidth, 
+			inverseAspectRatio * outroTargetWidth)
+		outroTargetWidth -= outroWidthStep
+		outroSmoothness = clamp(outroSmoothness - 1.5, 1.2, 10)
 	default:
 		break
 }

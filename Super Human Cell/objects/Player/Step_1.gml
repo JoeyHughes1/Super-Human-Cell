@@ -2,6 +2,7 @@ event_inherited()
 
 if(grounded) {
 	dash_count = max_dash_count
+	forcedLowGravity = false
 }
 dashCooldown = clamp(dashCooldown-1, 0, dashCooldownLength)
 
@@ -69,7 +70,7 @@ if(movementAllowed) {
 }
 
 //Handles acceleration in the Y direction
-if(jump_held || place_meeting(x, y, obj_windEffect)) {
+if(jump_held || place_meeting(x, y, obj_windEffect) || forcedLowGravity) {
 	vel_y += grav_speed;
 } else {
 	if(vel_y < 0) {

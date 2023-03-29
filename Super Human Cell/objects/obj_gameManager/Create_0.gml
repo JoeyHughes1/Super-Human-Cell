@@ -6,6 +6,7 @@ enum CameraState {
 	Fixed,
 	Intro,
 	OneDimension,
+	Outro,
 }
 
 defaultCam = view_camera[0]
@@ -24,6 +25,10 @@ fixCamZone = 0
 
 fixedDimension = 0 //0 for x, 1 for y
 fixDimensionZone = 0
+
+outroTargetWidth = 1920
+outroWidthStep = 0
+outroSmoothness = 10
 
 function moveCameraTo(camera, destX, destY, destWidth, moveSpeed) {
 	camState = CameraState.MoveTo

@@ -1,6 +1,5 @@
-
-movementAllowed = false
-if(alarm[0] == -1) {
-	alarm[0] = room_speed * 5
-}
-nextRoom = other.next_room
+instance_create_layer(x, y, "Characters", Player_endOfLevel)
+obj_gameManager.camState = CameraState.Outro
+Guide.targetPlayer = Player_endOfLevel
+instance_destroy()
+if(instance_exists(GuideDialogueBubble)) instance_destroy(instance_find(GuideDialogueBubble, 0))

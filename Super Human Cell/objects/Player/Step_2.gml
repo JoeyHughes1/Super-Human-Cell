@@ -41,4 +41,7 @@ switch (sprite_index)
 		
 		}
 		break;
+	case PlayerSprite_Idle:
+		if(!grounded) sprite_index = PlayerSprite_Jump
+		break
 }

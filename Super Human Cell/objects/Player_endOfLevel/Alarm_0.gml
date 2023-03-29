@@ -1,0 +1,1 @@
+room_goto(obj_EndOfLevel.next_room)

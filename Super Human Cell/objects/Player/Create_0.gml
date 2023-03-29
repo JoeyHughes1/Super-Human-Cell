@@ -26,6 +26,7 @@ jump_held = false
 moving_right = false
 moving_left = false
 movementAllowed = true
+forcedLowGravity = false
 
 //Dashing
 dash_length = 275
@@ -47,3 +48,5 @@ function reset() {
 	vel_x = 0
 	vel_y = 0
 }
+
+instance_create_layer(x, y, "Characters", obj_EntranceEffect)
