@@ -1,5 +1,8 @@
 //This will eventually be used for things like audio and music and the camera
 
+paused = false
+
+
 enum CameraState {
 	Follow,
 	MoveTo,

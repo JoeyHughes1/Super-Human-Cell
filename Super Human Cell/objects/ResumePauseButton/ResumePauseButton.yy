@@ -1,16 +1,16 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "TitleButton",
+  "name": "ResumePauseButton",
   "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":32,"eventType":9,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "TitleScreen",
-    "path": "folders/Objects/TitleScreen.yy",
+    "name": "Pause",
+    "path": "folders/Objects/GUI/Pause.yy",
   },
   "parentObjectId": {
     "name": "obj_ButtonParent",
@@ -32,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "NewGameButton",
-    "path": "sprites/NewGameButton/NewGameButton.yy",
+    "name": "ResumeButton",
+    "path": "sprites/ResumeButton/ResumeButton.yy",
   },
   "spriteMaskId": null,
   "visible": true,

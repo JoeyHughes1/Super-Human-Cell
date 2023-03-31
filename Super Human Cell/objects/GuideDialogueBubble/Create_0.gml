@@ -5,7 +5,7 @@ textCurrent = 0
 textWidth = 500;
 
 char_current = 1
-char_speed = 0.60
+char_speed = 0.70
 waiting = false
 
 bubbleRadius = 30
