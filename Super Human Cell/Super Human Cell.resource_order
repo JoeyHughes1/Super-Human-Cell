@@ -11,6 +11,7 @@
     {"name":"Nervous","order":4,"path":"folders/Objects/Environment/Nervous.yy",},
     {"name":"Respiratory","order":3,"path":"folders/Objects/Environment/Respiratory.yy",},
     {"name":"GUI","order":7,"path":"folders/Objects/GUI.yy",},
+    {"name":"Pause","order":2,"path":"folders/Objects/GUI/Pause.yy",},
     {"name":"Managers","order":3,"path":"folders/Objects/Managers.yy",},
     {"name":"Special","order":6,"path":"folders/Objects/Special.yy",},
     {"name":"SplashScreen","order":5,"path":"folders/Objects/SplashScreen.yy",},
@@ -37,7 +38,6 @@
     {"name":"Zones","order":5,"path":"folders/Sprites/Zones.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-    {"name":"Pause","order":2,"path":"folders/Objects/GUI/Pause.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"TrailPixel","order":2,"path":"sprites/TrailPixel/TrailPixel.yy",},
