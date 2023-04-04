@@ -1,0 +1,1 @@
+float = random_range(0, 359)	

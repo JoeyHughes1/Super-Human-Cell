@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "NervousTileSetSprite",
-  "bbox_bottom": 159,
-  "bbox_left": 64,
-  "bbox_right": 191,
+  "bbox_bottom": 95,
+  "bbox_left": 0,
+  "bbox_right": 159,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -17,7 +17,7 @@
   ],
   "gridX": 32,
   "gridY": 32,
-  "height": 256,
+  "height": 160,
   "HTile": false,
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c4798799-0d3b-430e-accd-f3674c16e67b","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"737df262-f0ac-49a7-b994-98df7e563b0d","path":"sprites/NervousTileSetSprite/NervousTileSetSprite.yy",},},},"Disabled":false,"id":"003b9cb8-cd2b-4905-b30c-9a510c781fec","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"737df262-f0ac-49a7-b994-98df7e563b0d","path":"sprites/NervousTileSetSprite/NervousTileSetSprite.yy",},},},"Disabled":false,"id":"37df889c-e87d-4c87-b2dd-807c9071e554","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 256,
+  "width": 160,
 }

@@ -30,7 +30,7 @@ forcedLowGravity = false
 
 //Dashing
 dash_length = 275
-max_dash_count = 1
+max_dash_count = 0
 dash_count = max_dash_count
 dashCooldown = 0
 dashCooldownLength= room_speed/3.5
