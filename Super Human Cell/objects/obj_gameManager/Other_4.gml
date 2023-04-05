@@ -1,4 +1,5 @@
 collisionTilemap = layer_tilemap_get_id("Collision_Tiles");
+killTilemap = layer_tilemap_get_id("Kill_Tiles")
 camState = CameraState.Intro
 Player.movementAllowed = false
 camera_set_view_speed(defaultCam, -1, -1)

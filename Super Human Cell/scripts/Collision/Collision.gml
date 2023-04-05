@@ -11,30 +11,42 @@ function check_collision(_move_x, _move_y)
 		return true;
 	}
 	
+	if(checkTilemapCollision(obj_gameManager.collisionTilemap, _move_x, _move_y)) return true
 	
-	// The function continues if there were no object collisions. In this case we check for tile
-	// collisions, at each corner of the instance's bounding box.
-	// This checks for tile collision at the top-left corner of the instance's mask
-	var _left_top = tilemap_get_at_pixel(obj_gameManager.collisionTilemap, bbox_left + _move_x, bbox_top + _move_y);
-
-	// This checks for tile collision at the top-right corner of the instance's mask
-	var _right_top = tilemap_get_at_pixel(obj_gameManager.collisionTilemap, bbox_right + _move_x, bbox_top + _move_y);
-
-	// This checks for tile collision at the bottom-right corner of the instance's mask
-	var _right_bottom = tilemap_get_at_pixel(obj_gameManager.collisionTilemap, bbox_right + _move_x, bbox_bottom + _move_y);
-
-	// This checks for tile collision at the bottom-left corner of the instance's mask
-	var _left_bottom = tilemap_get_at_pixel(obj_gameManager.collisionTilemap, bbox_left + _move_x, bbox_bottom + _move_y);
-
-	// The results of the above four actions were stored in temporary variables. If any of those variables were true, meaning a tile
-	// collision was found at any given corner, we return true and end the function.
-	if (_left_top or _right_top or _right_bottom or _left_bottom)
-	{
-		return true;
+	
+	if(obj_gameManager.killTilemap != -1) {
+		if(checkTilemapCollision(obj_gameManager.killTilemap, _move_x, _move_y)) {
+			with(Player) {
+				event_user(1)
+				reset()
+			}
+			return true;
+		}
 	}
-	
 
 	// If no tile collisions were found, the function continues.
 	// In that case we return false, to indicate that no collisions were found, and the instance is free to move to the new position.
 	return false;
+}
+
+function checkTilemapCollision(tileMap, _move_x, _move_y) {
+	// The function continues if there were no object collisions. In this case we check for tile
+	// collisions, at each corner of the instance's bounding box.
+	// This checks for tile collision at the top-left corner of the instance's mask
+	var _left_top = tilemap_get_at_pixel(tileMap, bbox_left + _move_x, bbox_top + _move_y);
+
+	// This checks for tile collision at the top-right corner of the instance's mask
+	var _right_top = tilemap_get_at_pixel(tileMap, bbox_right + _move_x, bbox_top + _move_y);
+
+	// This checks for tile collision at the bottom-right corner of the instance's mask
+	var _right_bottom = tilemap_get_at_pixel(tileMap, bbox_right + _move_x, bbox_bottom + _move_y);
+
+	// This checks for tile collision at the bottom-left corner of the instance's mask
+	var _left_bottom = tilemap_get_at_pixel(tileMap, bbox_left + _move_x, bbox_bottom + _move_y);
+
+	// The results of the above four actions were stored in temporary variables. If any of those variables were true, meaning a tile
+	// collision was found at any given corner, we return true and end the function.
+	if (_left_top or _right_top or _right_bottom or _left_bottom) {
+		return true;
+	} else return false
 }

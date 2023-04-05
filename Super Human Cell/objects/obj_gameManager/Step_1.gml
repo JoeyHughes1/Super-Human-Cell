@@ -46,6 +46,7 @@ switch(camState) {
 			}
 			
 			//Follow the y value
+			camera_set_view_border(currentCam, camWidth, camHeight)
 			camera_set_view_speed(currentCam, 
 			0, 
 			clamp(power(abs(Player.y - camCenterY), 1.65)/350, 0, 500));
@@ -65,6 +66,7 @@ switch(camState) {
 			}
 			
 			//Follow the x value
+			camera_set_view_border(currentCam, camWidth, camHeight)
 			camera_set_view_speed(currentCam, 
 			clamp(abs(Player.x - camCenterX)/5, 1, 500), 
 			0);

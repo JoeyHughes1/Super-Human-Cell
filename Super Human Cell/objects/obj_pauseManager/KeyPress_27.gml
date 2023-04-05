@@ -1,3 +1,4 @@
+//Pauses the game
 if(!gamePaused) {
 	if(obj_gameManager.camState == CameraState.Intro || obj_gameManager.camState == CameraState.Outro) exit
 	
@@ -23,6 +24,8 @@ if(!gamePaused) {
 	instance_activate_object(MainMenuPauseButton)
 	instance_activate_object(ResumePauseButton)
 	gamePaused = true
-} else {
+} 
+//Unpauses the game
+else {
 	unPause()
 }

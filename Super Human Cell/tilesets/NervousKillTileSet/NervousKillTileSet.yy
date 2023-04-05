@@ -1,14 +1,14 @@
 {
   "resourceType": "GMTileSet",
   "resourceVersion": "1.0",
-  "name": "NervousTileSet",
+  "name": "NervousKillTileSet",
   "autoTileSets": [],
   "macroPageTiles": {
     "SerialiseHeight": 0,
     "SerialiseWidth": 0,
     "TileSerialiseData": [],
   },
-  "out_columns": 4,
+  "out_columns": 2,
   "out_tilehborder": 2,
   "out_tilevborder": 2,
   "parent": {
@@ -16,15 +16,15 @@
     "path": "folders/Tile Sets.yy",
   },
   "spriteId": {
-    "name": "NervousTileSetSprite",
-    "path": "sprites/NervousTileSetSprite/NervousTileSetSprite.yy",
+    "name": "NervousKillTileSetSprite",
+    "path": "sprites/NervousKillTileSetSprite/NervousKillTileSetSprite.yy",
   },
   "spriteNoExport": true,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
   },
-  "tile_count": 15,
+  "tile_count": 5,
   "tileAnimation": {
     "FrameData": [
       0,
@@ -32,16 +32,6 @@
       2,
       3,
       4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12,
-      13,
-      14,
     ],
     "SerialiseFrameCount": 1,
   },

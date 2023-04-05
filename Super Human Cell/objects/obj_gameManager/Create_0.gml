@@ -2,7 +2,6 @@
 
 paused = false
 
-
 enum CameraState {
 	Follow,
 	MoveTo,
