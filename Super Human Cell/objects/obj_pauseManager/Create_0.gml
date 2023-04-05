@@ -2,9 +2,11 @@ gamePaused = false
 screenshot = surface_create(browser_width, browser_height)
 
 //Holds all the dialogue the Guide has said, shown in the pause menu
+ww = obj_gameManager.defaultWidth
+wh = obj_gameManager.defaultHeight
 dialogueHistory = []
-historyWidth = browser_width/5
-historyGap = (3/108) * browser_height
+historyWidth = obj_gameManager.defaultWidth/5
+historyGap = (3/108) * obj_gameManager.defaultHeight
 
 defaultWidth = 0
 defaultHeight = 0

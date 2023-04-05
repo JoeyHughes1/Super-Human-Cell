@@ -19,7 +19,7 @@ if(gamePaused) {
 				maxWidth = string_width(dialogueHistory[i])
 			}
 			nextTextY += string_height(dialogueHistory[i]) + historyGap
-			if(i > 0 && nextTextY + string_height(dialogueHistory[i-1]) > browser_height) {
+			if(i > 0 && nextTextY + string_height(dialogueHistory[i-1]) > wh) {
 				break
 			}
 		}
@@ -36,7 +36,7 @@ if(gamePaused) {
 		for(var i = array_length(dialogueHistory) - 1; i >= 0; i--) {
 			draw_text(historyGap, nextTextY, dialogueHistory[i])
 			nextTextY += string_height(dialogueHistory[i]) + historyGap
-			if(i > 0 && nextTextY + string_height(dialogueHistory[i-1]) > browser_height) {
+			if(i > 0 && nextTextY + string_height(dialogueHistory[i-1]) > wh) {
 				break
 			}
 		}
