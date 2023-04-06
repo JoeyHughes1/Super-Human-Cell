@@ -1,8 +1,17 @@
+// This code controls the Camera Movement in the game, with different states
+// that the camera could be in like if it's fixed, following the player,
+// moving to a certain coordinate, zooming out or in in the intro and outro, etc.
+
 inverseAspectRatio = defaultHeight/defaultWidth
 currentCam = defaultCam
-camCenterX = camera_get_view_x(currentCam) + camera_get_view_width(currentCam)/2;
-camCenterY = camera_get_view_y(currentCam) + camera_get_view_height(currentCam)/2;
 
+var camX = camera_get_view_x(currentCam)
+var camY = camera_get_view_y(currentCam)
+var camWidth = camera_get_view_width(currentCam)
+var camHeight = camera_get_view_height(currentCam)
+
+camCenterX = camX + camWidth/2;
+camCenterY = camY + camHeight/2;
 
 switch(camState) {
 	case CameraState.Follow:
@@ -26,10 +35,6 @@ switch(camState) {
 		if(!fixDimensionZone.collidingWithPlayer()) {
 			camState = CameraState.Follow
 		}
-		var camX = camera_get_view_x(currentCam)
-		var camY = camera_get_view_y(currentCam)
-		var camWidth = camera_get_view_width(currentCam)
-		var camHeight = camera_get_view_height(currentCam)
 		if(fixedDimension == 0) { // X is fixed, moving up and down
 			var idealWidth = fixDimensionZone.sprite_width
 			
@@ -76,10 +81,6 @@ switch(camState) {
 		if(!fixCamZone.collidingWithPlayer()) {
 			camState = CameraState.Follow
 		}
-		var camX = camera_get_view_x(currentCam)
-		var camY = camera_get_view_y(currentCam)
-		var camWidth = camera_get_view_width(currentCam)
-		var camHeight = camera_get_view_height(currentCam)
 		if(abs(camX - moveToX) > 0.1 || 
 			abs(camY - moveToY) > 0.1 || 
 			abs(camWidth - moveToWidth) > 0.1 || 
@@ -95,21 +96,15 @@ switch(camState) {
 		}
 		break
 	case CameraState.Intro:
-		var camWidth = camera_get_view_width(currentCam)
 		var newWidth = camWidth + clamp((defaultWidth - camWidth)/20, 1, 200)
 		if(abs(newWidth - defaultWidth) < 2) {
 			camera_set_view_size(currentCam, defaultWidth, defaultHeight)
 			camState = CameraState.Follow
 			Player.movementAllowed = true
-			//instance_create_layer(0, 0, "GUI", RespiratoryGUI)
 		}
 		camera_set_view_size(currentCam, newWidth, newWidth * inverseAspectRatio)
 		break
 	case CameraState.Outro:
-		var camX = camera_get_view_x(currentCam)
-		var camY = camera_get_view_y(currentCam)
-		var camWidth = camera_get_view_width(currentCam)
-		var camHeight = camera_get_view_height(currentCam)
 		var targetX = obj_EndOfLevel.x - outroTargetWidth/2
 		var targetY = obj_EndOfLevel.y - (outroTargetWidth * inverseAspectRatio	)/2
 		if(abs(camX - targetX) > 0.1 || 
