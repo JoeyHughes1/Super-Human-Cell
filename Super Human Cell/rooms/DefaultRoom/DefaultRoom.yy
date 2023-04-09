@@ -10,19 +10,15 @@
     {"name":"inst_387A0288","path":"rooms/DefaultRoom/DefaultRoom.yy",},
     {"name":"inst_548F99D4","path":"rooms/DefaultRoom/DefaultRoom.yy",},
     {"name":"inst_FFF5518","path":"rooms/DefaultRoom/DefaultRoom.yy",},
-    {"name":"inst_68DC157D","path":"rooms/DefaultRoom/DefaultRoom.yy",},
-    {"name":"inst_4BBE1B4B","path":"rooms/DefaultRoom/DefaultRoom.yy",},
     {"name":"inst_55E710FE","path":"rooms/DefaultRoom/DefaultRoom.yy",},
-    {"name":"inst_52DB9F34","path":"rooms/DefaultRoom/DefaultRoom.yy",},
+    {"name":"inst_4BBE1B4B","path":"rooms/DefaultRoom/DefaultRoom.yy",},
+    {"name":"inst_68DC157D","path":"rooms/DefaultRoom/DefaultRoom.yy",},
   ],
   "isDnd": false,
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Characters","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_68DC157D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"Player","path":"objects/Player/Player.yy",},"properties":[],"rotation":0.0,"scaleX":0.9,"scaleY":0.9,"x":704.0,"y":320.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4BBE1B4B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"Guide","path":"objects/Guide/Guide.yy",},"properties":[],"rotation":0.0,"scaleX":2.5,"scaleY":2.5,"x":640.0,"y":288.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_52DB9F34","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_GuideDialogueTrigger","path":"objects/obj_GuideDialogueTrigger/obj_GuideDialogueTrigger.yy",},"properties":[
-            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_GuideDialogueTrigger","path":"objects/obj_GuideDialogueTrigger/obj_GuideDialogueTrigger.yy",},"propertyId":{"name":"Dialogue","path":"objects/obj_GuideDialogueTrigger/obj_GuideDialogueTrigger.yy",},"value":"[\"This is the Skeletal System. This will be a tutorial for the players on how to move around and platform.\"]",},
-          ],"rotation":0.0,"scaleX":5.0,"scaleY":4.0,"x":512.0,"y":160.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_387A0288","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"Platform","path":"objects/Platform/Platform.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":512.0,"y":416.0,},

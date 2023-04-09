@@ -1,4 +1,4 @@
-draw_set_font(Dialogue_Font)
+draw_set_font(font)
 draw_set_halign(fa_left)
 draw_set_valign(fa_top)
 var guideDistanceToTarget = sqrt(sqr(Guide.x - Guide.targetX) + sqr(Guide.y - Guide.targetY))

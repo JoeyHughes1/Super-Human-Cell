@@ -1,4 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Start Fading in at the intro
 
-fade = true
+fadeIn = true

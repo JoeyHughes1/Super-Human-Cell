@@ -29,6 +29,7 @@
         "\"This is default String 2\"",
       ],"multiselect":true,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"[\"This is the Default Dialogue String 1\", \"This is default String 2\"]","varType":4,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"Triggered","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"False","varType":3,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"Huge","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":3,},
   ],
   "solid": false,
   "spriteId": {

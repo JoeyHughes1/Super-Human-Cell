@@ -1,1 +1,2 @@
-if(!instance_exists(FadeInScreen)) room_goto_next()
+FadeInScreen.fadeIn = false
+FadeInScreen.fadeOut = true

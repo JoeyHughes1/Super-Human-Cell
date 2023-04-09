@@ -121,3 +121,9 @@ switch(camState) {
 	default:
 		break
 }
+
+//Background Parallax for the nervous system
+if(room == Nervous) {
+	layer_y(layer_get_id("Parallax"), clamp(camY, 4700, 20000) * 0.24)
+	layer_y(layer_get_id("ParallaxShadow"), clamp(camY, 4700, 20000) * 0.24 + 10)
+}

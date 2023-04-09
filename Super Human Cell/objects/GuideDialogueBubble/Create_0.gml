@@ -16,6 +16,8 @@ normalAlpha = 0.5
 fadingIn = true
 fadingOut = false
 
+font = Dialogue_Font
+
 anchorX = 0
 anchorY = 0
 depth = depth - 1;

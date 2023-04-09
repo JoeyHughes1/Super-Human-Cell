@@ -1,1 +1,2 @@
-room_goto_next()
+FadeInScreen.fadeIn = false
+FadeInScreen.fadeOut = true
