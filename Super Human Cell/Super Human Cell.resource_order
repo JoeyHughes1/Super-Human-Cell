@@ -13,6 +13,7 @@
     {"name":"Skeletal","order":5,"path":"folders/Objects/Environment/Skeletal.yy",},
     {"name":"GUI","order":7,"path":"folders/Objects/GUI.yy",},
     {"name":"Pause","order":2,"path":"folders/Objects/GUI/Pause.yy",},
+    {"name":"IntroObjects","order":8,"path":"folders/Objects/IntroObjects.yy",},
     {"name":"Managers","order":3,"path":"folders/Objects/Managers.yy",},
     {"name":"Special","order":6,"path":"folders/Objects/Special.yy",},
     {"name":"SplashScreen","order":5,"path":"folders/Objects/SplashScreen.yy",},
@@ -40,7 +41,6 @@
     {"name":"Zones","order":5,"path":"folders/Sprites/Zones.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-    {"name":"IntroObjects","order":8,"path":"folders/Objects/IntroObjects.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"TrailPixel","order":2,"path":"sprites/TrailPixel/TrailPixel.yy",},
@@ -92,6 +92,7 @@
     {"name":"AirParticleGateSprite","order":2,"path":"sprites/AirParticleGateSprite/AirParticleGateSprite.yy",},
     {"name":"Player_endOfLevel","order":4,"path":"objects/Player_endOfLevel/Player_endOfLevel.yy",},
     {"name":"StringWrap","order":1,"path":"scripts/StringWrap/StringWrap.yy",},
+    {"name":"SpineLightning","order":5,"path":"objects/SpineLightning/SpineLightning.yy",},
     {"name":"FadingPlayer","order":5,"path":"objects/FadingPlayer/FadingPlayer.yy",},
     {"name":"obj_ResetCharacterTrigger","order":2,"path":"objects/obj_ResetCharacterTrigger/obj_ResetCharacterTrigger.yy",},
     {"name":"RespiratoryLogo","order":2,"path":"sprites/RespiratoryLogo/RespiratoryLogo.yy",},

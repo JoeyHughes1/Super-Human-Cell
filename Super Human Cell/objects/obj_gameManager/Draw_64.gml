@@ -9,6 +9,11 @@ var relativeXRight = (Player.x + (Player.sprite_width * sign(Player.image_xscale
 var relativeYTop = (Player.y - Player.sprite_height/2 - camera_get_view_y(obj_gameManager.currentCam))/camera_get_view_height(obj_gameManager.currentCam) * wh
 switch(room) {
 	case Respiratory:
+		//Logo is 216 x 117
+		if(relativeXRight > ww - logoOffset - 216 * 1.5 &&
+			relativeYTop < logoOffset + 117 * 1.5) {
+			alpha = 0.3
+		}
 		draw_sprite_ext(RespiratoryLogo, 0, ww - logoOffset, 0, 1.5, 1.5, 0, -1, alpha)
 		break
 	case Nervous:

@@ -122,8 +122,16 @@ switch(camState) {
 		break
 }
 
-//Background Parallax for the nervous system
-if(room == Nervous) {
+//Background Parallax for the nervous system and electricity
+if(room == Nervous && instance_exists(Player)) {
 	layer_y(layer_get_id("Parallax"), clamp(camY, 4700, 20000) * 0.24)
 	layer_y(layer_get_id("ParallaxShadow"), clamp(camY, 4700, 20000) * 0.24 + 10)
+	nervousElectricityTimer--
+	if(nervousElectricityTimer <= 0) {
+		var movingDirection = sign(random_range(-1, 1))
+		var prospectiveY = Player.y - clamp(camY, 4700, 20000) * 0.24
+		var newElectricity = instance_create_layer(2992, prospectiveY - (prospectiveY % 96) + 96 * round(random_range(-1*electricityRange, electricityRange)), "VFX", SpineLightning)
+		if(movingDirection <= 0) newElectricity.movingRight = false
+		nervousElectricityTimer = random_range(room_speed * 0.1, room_speed * 0.3)
+	}
 }

@@ -2,6 +2,9 @@
 
 paused = false
 
+nervousElectricityTimer = 5
+electricityRange = 7
+
 enum CameraState {
 	Follow,
 	MoveTo,

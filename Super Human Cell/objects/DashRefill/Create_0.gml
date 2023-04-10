@@ -1,3 +1,5 @@
+pulseRadius = 0
+maxPulseRadius = sprite_height
 collected = false
 function onPlayerCollision() {
 	if collected return;
