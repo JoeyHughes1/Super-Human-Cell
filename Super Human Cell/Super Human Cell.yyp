@@ -167,11 +167,11 @@
     {"id":{"name":"TitleScreen","path":"rooms/TitleScreen/TitleScreen.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"Nervous","path":"rooms/Nervous/Nervous.yy",},},
     {"roomId":{"name":"SplashScreen","path":"rooms/SplashScreen/SplashScreen.yy",},},
     {"roomId":{"name":"TitleScreen","path":"rooms/TitleScreen/TitleScreen.yy",},},
     {"roomId":{"name":"Intro","path":"rooms/Intro/Intro.yy",},},
     {"roomId":{"name":"Respiratory","path":"rooms/Respiratory/Respiratory.yy",},},
+    {"roomId":{"name":"Nervous","path":"rooms/Nervous/Nervous.yy",},},
     {"roomId":{"name":"TestLevel","path":"rooms/TestLevel/TestLevel.yy",},},
     {"roomId":{"name":"DefaultRoom","path":"rooms/DefaultRoom/DefaultRoom.yy",},},
   ],
